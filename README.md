@@ -5,4 +5,4 @@ saved to the folder containig your ".py" file. Additionaly, there are some words
 
 # Note 
 This skript was created in response to the video ["Horrifying Discoveries in Minecraft Beta Footage"](https://www.youtube.com/watch?v=jtqXrhX8_DU]) uploaded to the channel [Wifies](https://www.youtube.com/@Wifies). The structure of the link might not be the 
-right one, regardless it's a step into a direction that might lead to solving the puzzle. 
+right one, regardless it's a step into a direction that might lead to solving the puzzle. Also, the code comments and prints are in german.
