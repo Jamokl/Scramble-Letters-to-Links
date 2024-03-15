@@ -31,11 +31,18 @@ def generate_random_url_with_inclusions(letters, inclusions):
     return url
 
 # Anzahl der zu generierenden URLs
-num_urls = 50
+num_urls = 300
 
-# Eine Liste für die URLs erstellen
+# URLs generieren
 random_urls_with_inclusions = [generate_random_url_with_inclusions(letters, possible_inclusions) for _ in range(num_urls)]
 
-# Alle generierten URLs ausgeben
-for url in random_urls_with_inclusions:
-    print(url)
+# Dateinamen festlegen
+filename = "links.txt"
+
+# Die generierten URLs in eine Datei schreiben
+with open(filename, 'w') as file:
+    for url in random_urls_with_inclusions:
+        file.write(url + "\n")
+
+# Information ausgeben, wo die Datei gespeichert wurde
+print(f"URLs wurden in die Datei {filename} geschrieben.")
